@@ -6,6 +6,7 @@
 
 body{
   background-color: #444444;
+  color:#fff;
 }
 
 .spcont{
@@ -16,14 +17,14 @@ body{
   bottom: 0;
   right: 0;
   overflow: auto;
-  z-index: 1;
+  z-index: 3;
 }
 
 .fm{
   color:#FFA200;
   text-align: center;
   padding-top: 30vh;
-  font-size: 500%;
+  font-size: 450%;
 }
 
 h1{
@@ -42,58 +43,95 @@ hr {
   -webkit-linear-gradient(left, #FFFFFF, rgba(0,0,0,0));
 }
 
-iframe{
-display: inline-block;
-    vertical-align: middle;
-    float: none;
+.map{
+  width:100%;
+  height: 50vw;
+  margin-top: 5%
+
 }
 
-#map {
-  height: 50%;
-  margin: 0;
-  padding: 0;
-  margin-left:10%;
-  margin-right:10%;
-  margin-top:2%;
+.fa-spinner{
+  font-size: 5rem;
+  text-align: center;
 }
 
-/* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+.cnear{
+  font-size: 3rem;
+  color:#FFA200;
+  text-align: center;
+  font-weight: 200;
 }
 
-#pac-input {
+/*searchbar*/
+.sear{
+  padding-bottom: 2%;
+}
+#custom-search-input{
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
   background-color: #fff;
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 300;
-  margin-left: 12px;
-  padding: 0 11px 0 13px;
-  text-overflow: ellipsis;
-  width: 300px;
 }
 
-#pac-input:focus {
-  border-color: #4d90fe;
+#custom-search-input input{
+  border: 0;
+  box-shadow: none;
 }
 
-.pac-container {
-  font-family: Roboto;
+#custom-search-input button{
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+  border-left: solid 1px #ccc;
 }
 
-#type-selector {
-  color: #fff;
-  background-color: #4d90fe;
-  padding: 5px 11px 0px 11px;
+#custom-search-input button:hover{
+  border: 0;
+  box-shadow: none;
+  border-left: solid 1px #ccc;
 }
 
-#type-selector label {
-  font-family: Roboto;
-  font-size: 13px;
-  font-weight: 300;
+#custom-search-input .glyphicon-search{
+  font-size: 23px;
 }
-#target {
-  width: 345px;
+
+.input-lg{
+  height: 35px;
+}
+.foodimg{
+  width:100%;
+  padding-top:6%;
+}
+
+#clf{
+  padding-left: 13px;
+  padding-right: 5px;
+}
+
+#cnf{
+  padding: 0;
+  padding-right: 18px;
+}
+
+#inf{
+    padding: 0;
+    padding-left: 13px;
+    padding-right: 5px;
+}
+
+#pef{
+    padding: 0;
+    padding-left: 8px;
+    padding-right: 11px;
+}
+#thaf{
+    padding: 0;
+    padding-left: 2px;
+    padding-right: 18px;
+}
+
+.foodimages{
+  padding-bottom: 5%;
 }
