@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Document</title>
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/fonts/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400" rel="stylesheet">
+   <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+<!-- el splash
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="spcont">
+          <h1 class="fm">Foodmap</h1>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="maincont">
+        <h1>Foodmap</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<hr class="hr-danger">
+
+
+
+<div id="map"></div>
+<input id="pac-input" class="controls" type="text" placeholder="Search Box">
+ <!-- Replace the value of the key parameter with your own API key. -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASGYfwwOQPphdW3IqZXNIoSXUVrsMDH0E&libraries=places&callback=initMap">
+</script>
+
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

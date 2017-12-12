@@ -1,0 +1,99 @@
+* {
+  margin:0;
+  padding:0;
+  font-family: Roboto;
+}
+
+body{
+  background-color: #444444;
+}
+
+.spcont{
+  background-color: #444444;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 1;
+}
+
+.fm{
+  color:#FFA200;
+  text-align: center;
+  padding-top: 30vh;
+  font-size: 500%;
+}
+
+h1{
+  color:#FFA200;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 300;
+}
+hr {
+  height: 4px;
+  margin-left: 15px;
+  margin-bottom:-3px;
+}
+.hr-danger{
+  background-image: 
+  -webkit-linear-gradient(left, #FFFFFF, rgba(0,0,0,0));
+}
+
+iframe{
+display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+#map {
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:2%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+#target {
+  width: 345px;
+}
