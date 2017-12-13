@@ -40,12 +40,11 @@ $(function() {
     }
   });
 });
-
-
 /**
-*funciones mouseover que cambian la imagen del restorant por comida
+*funciones mouseover que cambia las imagenes del filtro precio
+*esta cambia de restorant a comida y viceversa
 */
-$('#arb').on({
+$('.elarbol').on({
     'mouseover': function() {
          var src = ($(this).attr('src') === 'assets/img/precio5.jpg')
             ? 'assets/img/arbolfood.jpg'
@@ -53,7 +52,7 @@ $('#arb').on({
          $(this).attr('src', src);
     }
 });
-$('#fuenteale').on({
+$('.alemana').on({
     'mouseover': function() {
          var src = ($(this).attr('src') === 'assets/img/abierto3.jpg')
             ? 'assets/img/lafuentefood.jpg'
@@ -61,7 +60,7 @@ $('#fuenteale').on({
          $(this).attr('src', src);
     }
 });
-$('#curry').on({
+$('.curry').on({
     'mouseover': function() {
          var src = ($(this).attr('src') === 'assets/img/precio4.jpg')
             ? 'assets/img/curryfood.jpg'
@@ -69,7 +68,7 @@ $('#curry').on({
          $(this).attr('src', src);
     }
 });
-$('#lapiccola').on({
+$('.piccola').on({
     'mouseover': function() {
          var src = ($(this).attr('src') === 'assets/img/abierto2.jpg')
             ? 'assets/img/lapiccolafood.jpg'
@@ -77,7 +76,7 @@ $('#lapiccola').on({
          $(this).attr('src', src);
     }
 });
-$('#cuisine').on({
+$('.cuisine').on({
     'mouseover': function() {
          var src = ($(this).attr('src') === 'assets/img/precio1.jpg')
             ? 'assets/img/lacuisinefood.jpg'
@@ -85,7 +84,34 @@ $('#cuisine').on({
          $(this).attr('src', src);
     }
 });
-
-
+/**
+*funciones mouseover para el filtro valoración
+*/
+$('.ancla').on({
+    'mouseover': function() {
+         var src = ($(this).attr('src') === 'assets/img/precio2.jpg')
+            ? 'assets/img/elanclafood.jpg'
+            : 'assets/img/precio2.jpg';
+         $(this).attr('src', src);
+    }
 });
-
+/**
+*funciones mouseover para el filtro orden alfabetico
+*/
+$('.bara').on({
+    'mouseover': function() {
+         var src = ($(this).attr('src') === 'assets/img/precio3.jpg')
+            ? 'assets/img/barandiaranfood.jpg'
+            : 'assets/img/precio3.jpg';
+         $(this).attr('src', src);
+    }
+});
+$('.ibis').on({
+    'mouseover': function() {
+         var src = ($(this).attr('src') === 'assets/img/abierto1.jpg')
+            ? 'assets/img/ibisfood.jpg'
+            : 'assets/img/abierto1.jpg';
+         $(this).attr('src', src);
+    }
+});
+});

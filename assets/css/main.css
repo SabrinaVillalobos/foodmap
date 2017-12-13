@@ -6,7 +6,6 @@
 
 body{
   background-color: #444444;
-  color:#fff;
 }
 
 .spcont{
@@ -105,28 +104,28 @@ hr {
   padding-top:6%;
 }
 
-#clf{
+.clf{
   padding-left: 13px;
   padding-right: 5px;
 }
 
-#cnf{
+.cnf{
   padding: 0;
   padding-right: 18px;
 }
 
-#inf{
+.inf{
     padding: 0;
     padding-left: 13px;
     padding-right: 5px;
 }
 
-#pef{
+.pef{
     padding: 0;
     padding-left: 8px;
     padding-right: 11px;
 }
-#thaf{
+.thaf{
     padding: 0;
     padding-left: 2px;
     padding-right: 18px;
@@ -134,4 +133,12 @@ hr {
 
 .foodimages{
   padding-bottom: 5%;
+}
+
+.modal-title{
+  text-align: center;
+}
+
+h5 {
+  color:#BB2F2F;
 }
