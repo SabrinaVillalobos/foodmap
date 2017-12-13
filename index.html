@@ -7,12 +7,12 @@
   <script src="assets/js/jquery-3.2.1.min.js"></script>
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/fonts/web-fonts-with-css/css/fontawesome-all.min.css">
-   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400" rel="stylesheet">
-   <link rel="stylesheet" href="assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
 
 </head>
 <body>
-
+<!-- inicio vista splash -->
 <!-- <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
@@ -22,7 +22,8 @@
       </div>
     </div>
   </div> -->
-
+<!-- fin vista splash -->
+<!-- inicio header -->
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -31,8 +32,8 @@
       </div>
     </div>
   </div>
-
-
+<!-- fin header -->
+<!-- inicio contenedor del mapa -->
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -41,78 +42,83 @@
     </div>
   </div>
 </div>
-
+<!-- fin contenedor del mapa -->
+<!-- inicio de barra filtro -->
 <div class="container sear">
   <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div id="custom-search-input">
-                <div class="input-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <select id="filtrores" class="form-control input-lg" />
-                     <option value="" disabled selected>Filtrar restaurantes</option>
-                      <option value="price" id="preciof">Precio</option>
-      <option value="valoracion">Valoración</option>
-      <option value="orden alfabetico">Orden alfabético</option>
-                    </select>
-                    <span class="input-group-btn">
-                        <button class="btn btn-info btn-lg" type="button">
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </span>
-                </div>
-            </div>
-        </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div id="custom-search-input">
+        <div class="input-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <select id="filtrores" class="form-control input-lg" />
+          <option value="" disabled selected>Filtrar restaurantes</option>
+          <option value="price" id="preciof">Precio</option>
+          <option value="valoracion">Valoración</option>
+          <option value="orden alfabetico">Orden alfabético</option>
+        </select>
+        <span class="input-group-btn">
+          <button class="btn btn-info btn-lg" type="button">
+            <i class="fas fa-search"></i>
+          </button>
+        </span>
+      </div>
+    </div>
   </div>
 </div>
-
-
+</div>
+<!-- fin de barra filtro-->
+<!-- inicio contenedor images comida de inicio -->
 <div class="container-fluid foodimages">
-    <div class="row">
-        <div class="col-xs-6" id="clf"><img  class="foodimg" src="assets/img/chilena.jpg" alt="comida chilena"></div>
-        <div class="col-xs-6" id="cnf"><img class="foodimg" src="assets/img/china.jpg" alt="comida china"></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4" id="inf"><img class="foodimg" src="assets/img/india.jpg" alt="comida india"></div>
-        <div class="col-xs-4" id="pef"><img class="foodimg" src="assets/img/peruana.jpg" alt="comida preuana"></div>
-        <div class="col-xs-4" id="thaf"><img class="foodimg" src="assets/img/thai.jpg" alt="comida thai"></div>
-    </div>
+  <div class="row">
+    <div class="col-xs-6" id="clf"><img class="foodimg" src="assets/img/chilena.jpg" alt="comida chilena"></div>
+    <div class="col-xs-6" id="cnf"><img class="foodimg" src="assets/img/china.jpg" alt="comida china"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4" id="inf"><img class="foodimg" src="assets/img/india.jpg" alt="comida india"></div>
+    <div class="col-xs-4" id="pef"><img class="foodimg" src="assets/img/peruana.jpg" alt="comida peruana"></div>
+    <div class="col-xs-4" id="thaf"><img class="foodimg" src="assets/img/thai.jpg" alt="comida thai"></div>
+  </div>
 </div>
-
+<!-- fin contenedor images comida de inicio -->
+<!-- inicio contenedor imagenes filtro precio -->
 <div class="container-fluid filterimg" id="preciodiv">
-    <div class="row">
-        <div class="col-xs-6" id="clf"><img  class="foodimg" src="assets/img/precio5.jpg" alt="El Árbol"></div>
-        <div class="col-xs-6" id="cnf"><img class="foodimg" src="assets/img/abierto3.jpg" alt="La fuente alemana"></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4" id="inf"><img class="foodimg" src="assets/img/precio4.jpg" alt="Curry"></div>
-        <div class="col-xs-4" id="pef"><img class="foodimg" src="assets/img/abierto2.jpg" alt="La piccola italia"></div>
-        <div class="col-xs-4" id="thaf"><img class="foodimg" src="assets/img/precio1.jpg" alt="La Cuisine"></div>
-    </div>
+  <div class="row">
+    <div class="col-xs-6 arb" id="clf"><img id="arb" class="foodimg" src="assets/img/precio5.jpg" alt="El Árbol"></div>
+    <div class="col-xs-6" id="cnf"><img id="fuenteale" class="foodimg" src="assets/img/abierto3.jpg" alt="La fuente alemana"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4" id="inf"><img id="curry" class="foodimg" src="assets/img/precio4.jpg" alt="Curry"></div>
+    <div class="col-xs-4" id="pef"><img id="lapiccola" class="foodimg" src="assets/img/abierto2.jpg" alt="La piccola italia"></div>
+    <div class="col-xs-4" id="thaf"><img id="cuisine" class="foodimg" src="assets/img/precio1.jpg" alt="La Cuisine"></div>
+  </div>
 </div>
-
+<!-- fin contenedor imagenes filtro precio -->
+<!-- inicio contenedor imagenes filtro valoración -->
 <div class="container-fluid filterimg" id="valdiv">
-    <div class="row">
-        <div class="col-xs-6" id="clf"><img class="foodimg" src="assets/img/precio1.jpg" alt="La Cuisine"></div>
-        <div class="col-xs-6" id="cnf"><img class="foodimg" src="assets/img/abierto3.jpg" alt="La fuente alemana"></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4" id="inf"><img class="foodimg" src="assets/img/precio5.jpg" alt="El Árbol"></div>
-        <div class="col-xs-4" id="pef"><img class="foodimg" src="assets/img/precio2.jpg" alt="El ancla"></div>
-        <div class="col-xs-4" id="thaf"><img class="foodimg" src="assets/img/precio4.jpg" alt="Curry"></div>
-    </div>
+  <div class="row">
+    <div class="col-xs-6" id="clf"><img class="foodimg" src="assets/img/precio1.jpg" alt="La Cuisine"></div>
+    <div class="col-xs-6" id="cnf"><img class="foodimg" src="assets/img/abierto3.jpg" alt="La fuente alemana"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4" id="inf"><img class="foodimg" src="assets/img/precio5.jpg" alt="El Árbol"></div>
+    <div class="col-xs-4" id="pef"><img class="foodimg" src="assets/img/precio2.jpg" alt="El ancla"></div>
+    <div class="col-xs-4" id="thaf"><img class="foodimg" src="assets/img/precio4.jpg" alt="Curry"></div>
+  </div>
 </div>
+<!-- fin contenedor imagenes filtro valoración -->
 
+<!-- inicio contenedor imagenes filtro alfabetico -->
 <div class="container-fluid filterimg" id="alphord">
-    <div class="row">
-        <div class="col-xs-6" id="clf"><img class="foodimg" src="assets/img/precio3.jpg" alt="Barandiaran"></div>
-        <div class="col-xs-6" id="cnf"><img class="foodimg" src="assets/img/precio4.jpg" alt="Curry"></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-4" id="inf"><img class="foodimg" src="assets/img/precio5.jpg" alt="El Árbol"></div>
-        <div class="col-xs-4" id="pef"><img class="foodimg" src="assets/img/precio2.jpg" alt="El Ancla"></div>
-        <div class="col-xs-4" id="thaf"><img class="foodimg" src="assets/img/abierto1.jpg" alt="Ibis"></div>
-    </div>
+  <div class="row">
+    <div class="col-xs-6" id="clf"><img class="foodimg" src="assets/img/precio3.jpg" alt="Barandiaran"></div>
+    <div class="col-xs-6" id="cnf"><img class="foodimg" src="assets/img/precio4.jpg" alt="Curry"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4" id="inf"><img class="foodimg" src="assets/img/precio5.jpg" alt="El Árbol"></div>
+    <div class="col-xs-4" id="pef"><img class="foodimg" src="assets/img/precio2.jpg" alt="El Ancla"></div>
+    <div class="col-xs-4" id="thaf"><img class="foodimg" src="assets/img/abierto1.jpg" alt="Ibis"></div>
+  </div>
 </div>
-
+<!-- fin contenedor imagenes filtro alfabetico -->
   <script src="assets/js/app.js"></script>
 </body>
 </html>
