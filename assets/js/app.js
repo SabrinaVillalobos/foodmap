@@ -101,7 +101,7 @@ $('.ancla').on({
 $('.bara').on({
     'mouseover': function() {
          var src = ($(this).attr('src') === 'assets/img/precio3.jpg')
-            ? 'assets/img/barandiaranfood.jpg'
+            ? 'assets/img/Barandiaranfood.jpg'
             : 'assets/img/precio3.jpg';
          $(this).attr('src', src);
     }
