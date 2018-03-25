@@ -26,3 +26,5 @@ Al seleccionar alguno de los restaurantes, deberá mostrarse la información de 
 
 Una vez cerrado el modal debe volver a la vista principal. 
 ![Imgur](https://i.imgur.com/xwQMZeV.jpg)
+
+## Desarrollado para [Laboratoria] (http://laboratoria.la)
